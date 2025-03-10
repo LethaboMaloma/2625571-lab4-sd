@@ -10,24 +10,24 @@
     <input type="button" id="Submit" value="Submit">
   </form>
   
-<section id="output">
+
     <section class="country-info">
+        <article class="details">
+            <p><b>Capital:</b> <p id="capital"></p></p>
+            <p><b>Population:</b> <p id="population"></p></p>
+            <p><b>Region:</b> <p id="region">
+            </p></p>
+        </article>
         <article class="flag">
             <h2>Country Name</h2>
-            <img src="" alt="Country Flag" id="country-flag">
-        </article>
-        <article class="details">
-            <p><strong>Capital:</strong> <p id="capital">Not available</p></p>
-            <p><strong>Population:</strong> <p id="population">Not available</p></p>
-            <p><strong>Region:</strong> <p id="region">Not available</p></p>
+            <img src="" id="country-flag">
         </article>
     </section>
 
-    <section class="neighbors" id="neighbors">
+    <section class="neighbors" id="bordering-countries">
         <h3>Neighbouring Countries:</h3>
         <ul id="neighbors-list"></ul>
     </section>
-</section>
 
 <section class="error" id="error-message"></section>
 
